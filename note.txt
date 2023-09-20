@@ -1,0 +1,43 @@
+<!-- jquery 3.7.0 -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" ></script>
+
+<!-- bootstrap 4.6.2 -->
+<link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" ></script>
+
+
+<!-- datatable 1.13.6 -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap4.min.css">
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" ></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap4.min.js" ></script>
+
+
+<!-- font awesome 3.7.0 -->
+<link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+/>
+
+<!-- ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+/*** REGION 1 - Global variables - Vùng khai báo biến, hằng số, tham số TOÀN CỤC */
+/*** REGION 2 - Vùng gán / thực thi hàm xử lý sự kiện cho các elements */
+/*** REGION 3 - Event handlers - Vùng khai báo các hàm xử lý sự kiện */
+/*** REGION 4 - Common funtions - Vùng khai báo hàm dùng chung trong toàn bộ chương trình*/
+
+************ CSS **************
+/* xl -Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+/* lg - large devices (laptop, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+/* sm - tablet */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+/* xs - mobile */
+@media (max-width: 575.98px) {}
